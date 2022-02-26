@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  PodcastMobile
-//
-//  Created by Abel Demoz on 26/02/2022.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

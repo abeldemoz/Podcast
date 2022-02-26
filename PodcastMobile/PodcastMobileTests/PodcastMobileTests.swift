@@ -1,10 +1,3 @@
-//
-//  PodcastMobileTests.swift
-//  PodcastMobileTests
-//
-//  Created by Abel Demoz on 26/02/2022.
-//
-
 import XCTest
 @testable import PodcastMobile
 

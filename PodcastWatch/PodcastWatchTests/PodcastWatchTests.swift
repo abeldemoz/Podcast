@@ -1,10 +1,3 @@
-//
-//  PodcastWatchTests.swift
-//  PodcastWatchTests
-//
-//  Created by Abel Demoz on 26/02/2022.
-//
-
 import XCTest
 @testable import PodcastWatch_WatchKit_Extension
 

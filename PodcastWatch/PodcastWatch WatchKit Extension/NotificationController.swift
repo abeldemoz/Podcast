@@ -1,10 +1,3 @@
-//
-//  NotificationController.swift
-//  PodcastWatch WatchKit Extension
-//
-//  Created by Abel Demoz on 26/02/2022.
-//
-
 import WatchKit
 import SwiftUI
 import UserNotifications

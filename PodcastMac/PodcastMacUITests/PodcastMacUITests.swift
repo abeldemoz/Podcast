@@ -1,10 +1,3 @@
-//
-//  PodcastMacUITests.swift
-//  PodcastMacUITests
-//
-//  Created by Abel Demoz on 26/02/2022.
-//
-
 import XCTest
 
 class PodcastMacUITests: XCTestCase {
