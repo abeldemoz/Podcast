@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79D9FD927CA79BF00932E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FD827CA79BF00932E89 /* AppDelegate.swift */; };
+		E79D9FDB27CA79BF00932E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDA27CA79BF00932E89 /* SceneDelegate.swift */; };
+		E79D9FDD27CA79BF00932E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDC27CA79BF00932E89 /* ViewController.swift */; };
+		E79D9FE027CA79BF00932E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79D9FDE27CA79BF00932E89 /* Main.storyboard */; };
+		E79D9FE227CA79BF00932E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79D9FE127CA79BF00932E89 /* Assets.xcassets */; };
+		E79D9FE527CA79BF00932E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79D9FE327CA79BF00932E89 /* LaunchScreen.storyboard */; };
+		E79D9FF027CA79BF00932E89 /* PodcastMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FEF27CA79BF00932E89 /* PodcastMobileTests.swift */; };
+		E79D9FFA27CA79BF00932E89 /* PodcastMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FF927CA79BF00932E89 /* PodcastMobileUITests.swift */; };
+		E79D9FFC27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FFB27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E79D9FEC27CA79BF00932E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79D9FCD27CA79BF00932E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79D9FD427CA79BF00932E89;
+			remoteInfo = PodcastMobile;
+		};
+		E79D9FF627CA79BF00932E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79D9FCD27CA79BF00932E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79D9FD427CA79BF00932E89;
+			remoteInfo = PodcastMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E79D9FD527CA79BF00932E89 /* PodcastMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79D9FD827CA79BF00932E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E79D9FDA27CA79BF00932E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E79D9FDC27CA79BF00932E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E79D9FDF27CA79BF00932E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79D9FE127CA79BF00932E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79D9FE427CA79BF00932E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79D9FE627CA79BF00932E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79D9FEB27CA79BF00932E89 /* PodcastMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79D9FEF27CA79BF00932E89 /* PodcastMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastMobileTests.swift; sourceTree = "<group>"; };
+		E79D9FF527CA79BF00932E89 /* PodcastMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79D9FF927CA79BF00932E89 /* PodcastMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastMobileUITests.swift; sourceTree = "<group>"; };
+		E79D9FFB27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79D9FD227CA79BF00932E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79D9FE827CA79BF00932E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79D9FF227CA79BF00932E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79D9FCC27CA79BF00932E89 = {
+			isa = PBXGroup;
+			children = (
+				E79D9FD727CA79BF00932E89 /* PodcastMobile */,
+				E79D9FEE27CA79BF00932E89 /* PodcastMobileTests */,
+				E79D9FF827CA79BF00932E89 /* PodcastMobileUITests */,
+				E79D9FD627CA79BF00932E89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79D9FD627CA79BF00932E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79D9FD527CA79BF00932E89 /* PodcastMobile.app */,
+				E79D9FEB27CA79BF00932E89 /* PodcastMobileTests.xctest */,
+				E79D9FF527CA79BF00932E89 /* PodcastMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79D9FD727CA79BF00932E89 /* PodcastMobile */ = {
+			isa = PBXGroup;
+			children = (
+				E79D9FD827CA79BF00932E89 /* AppDelegate.swift */,
+				E79D9FDA27CA79BF00932E89 /* SceneDelegate.swift */,
+				E79D9FDC27CA79BF00932E89 /* ViewController.swift */,
+				E79D9FDE27CA79BF00932E89 /* Main.storyboard */,
+				E79D9FE127CA79BF00932E89 /* Assets.xcassets */,
+				E79D9FE327CA79BF00932E89 /* LaunchScreen.storyboard */,
+				E79D9FE627CA79BF00932E89 /* Info.plist */,
+			);
+			path = PodcastMobile;
+			sourceTree = "<group>";
+		};
+		E79D9FEE27CA79BF00932E89 /* PodcastMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79D9FEF27CA79BF00932E89 /* PodcastMobileTests.swift */,
+			);
+			path = PodcastMobileTests;
+			sourceTree = "<group>";
+		};
+		E79D9FF827CA79BF00932E89 /* PodcastMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E79D9FF927CA79BF00932E89 /* PodcastMobileUITests.swift */,
+				E79D9FFB27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift */,
+			);
+			path = PodcastMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79D9FD427CA79BF00932E89 /* PodcastMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79D9FFF27CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobile" */;
+			buildPhases = (
+				E79D9FD127CA79BF00932E89 /* Sources */,
+				E79D9FD227CA79BF00932E89 /* Frameworks */,
+				E79D9FD327CA79BF00932E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodcastMobile;
+			productName = PodcastMobile;
+			productReference = E79D9FD527CA79BF00932E89 /* PodcastMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79D9FEA27CA79BF00932E89 /* PodcastMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79DA00227CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobileTests" */;
+			buildPhases = (
+				E79D9FE727CA79BF00932E89 /* Sources */,
+				E79D9FE827CA79BF00932E89 /* Frameworks */,
+				E79D9FE927CA79BF00932E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79D9FED27CA79BF00932E89 /* PBXTargetDependency */,
+			);
+			name = PodcastMobileTests;
+			productName = PodcastMobileTests;
+			productReference = E79D9FEB27CA79BF00932E89 /* PodcastMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E79D9FF427CA79BF00932E89 /* PodcastMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79DA00527CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobileUITests" */;
+			buildPhases = (
+				E79D9FF127CA79BF00932E89 /* Sources */,
+				E79D9FF227CA79BF00932E89 /* Frameworks */,
+				E79D9FF327CA79BF00932E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79D9FF727CA79BF00932E89 /* PBXTargetDependency */,
+			);
+			name = PodcastMobileUITests;
+			productName = PodcastMobileUITests;
+			productReference = E79D9FF527CA79BF00932E89 /* PodcastMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79D9FCD27CA79BF00932E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E79D9FD427CA79BF00932E89 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E79D9FEA27CA79BF00932E89 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E79D9FD427CA79BF00932E89;
+					};
+					E79D9FF427CA79BF00932E89 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E79D9FD427CA79BF00932E89;
+					};
+				};
+			};
+			buildConfigurationList = E79D9FD027CA79BF00932E89 /* Build configuration list for PBXProject "PodcastMobile" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79D9FCC27CA79BF00932E89;
+			productRefGroup = E79D9FD627CA79BF00932E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79D9FD427CA79BF00932E89 /* PodcastMobile */,
+				E79D9FEA27CA79BF00932E89 /* PodcastMobileTests */,
+				E79D9FF427CA79BF00932E89 /* PodcastMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79D9FD327CA79BF00932E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79D9FE527CA79BF00932E89 /* LaunchScreen.storyboard in Resources */,
+				E79D9FE227CA79BF00932E89 /* Assets.xcassets in Resources */,
+				E79D9FE027CA79BF00932E89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79D9FE927CA79BF00932E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79D9FF327CA79BF00932E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79D9FD127CA79BF00932E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79D9FDD27CA79BF00932E89 /* ViewController.swift in Sources */,
+				E79D9FD927CA79BF00932E89 /* AppDelegate.swift in Sources */,
+				E79D9FDB27CA79BF00932E89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79D9FE727CA79BF00932E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79D9FF027CA79BF00932E89 /* PodcastMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79D9FF127CA79BF00932E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79D9FFA27CA79BF00932E89 /* PodcastMobileUITests.swift in Sources */,
+				E79D9FFC27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E79D9FED27CA79BF00932E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79D9FD427CA79BF00932E89 /* PodcastMobile */;
+			targetProxy = E79D9FEC27CA79BF00932E89 /* PBXContainerItemProxy */;
+		};
+		E79D9FF727CA79BF00932E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79D9FD427CA79BF00932E89 /* PodcastMobile */;
+			targetProxy = E79D9FF627CA79BF00932E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E79D9FDE27CA79BF00932E89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79D9FDF27CA79BF00932E89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79D9FE327CA79BF00932E89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79D9FE427CA79BF00932E89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79D9FFD27CA79BF00932E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E79D9FFE27CA79BF00932E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79DA00027CA79BF00932E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodcastMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E79DA00127CA79BF00932E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodcastMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E79DA00327CA79BF00932E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastMobile.app/PodcastMobile";
+			};
+			name = Debug;
+		};
+		E79DA00427CA79BF00932E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastMobile.app/PodcastMobile";
+			};
+			name = Release;
+		};
+		E79DA00627CA79BF00932E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PodcastMobile;
+			};
+			name = Debug;
+		};
+		E79DA00727CA79BF00932E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PodcastMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79D9FD027CA79BF00932E89 /* Build configuration list for PBXProject "PodcastMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79D9FFD27CA79BF00932E89 /* Debug */,
+				E79D9FFE27CA79BF00932E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79D9FFF27CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79DA00027CA79BF00932E89 /* Debug */,
+				E79DA00127CA79BF00932E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79DA00227CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79DA00327CA79BF00932E89 /* Debug */,
+				E79DA00427CA79BF00932E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79DA00527CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79DA00627CA79BF00932E89 /* Debug */,
+				E79DA00727CA79BF00932E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79D9FCD27CA79BF00932E89 /* Project object */;
+}
