@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E714B5E128491C3D00A08ACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B5E028491C3D00A08ACF /* AppDelegate.swift */; };
+		E714B5E328491C3D00A08ACF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B5E228491C3D00A08ACF /* SceneDelegate.swift */; };
+		E714B5E528491C3D00A08ACF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B5E428491C3D00A08ACF /* ViewController.swift */; };
+		E714B5E828491C3D00A08ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E714B5E628491C3D00A08ACF /* Main.storyboard */; };
+		E714B5EA28491C3E00A08ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E714B5E928491C3E00A08ACF /* Assets.xcassets */; };
+		E714B5ED28491C3E00A08ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E714B5EB28491C3E00A08ACF /* LaunchScreen.storyboard */; };
 		E79D9FD927CA79BF00932E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FD827CA79BF00932E89 /* AppDelegate.swift */; };
 		E79D9FDB27CA79BF00932E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDA27CA79BF00932E89 /* SceneDelegate.swift */; };
 		E79D9FDD27CA79BF00932E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDC27CA79BF00932E89 /* ViewController.swift */; };
@@ -36,7 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E79D9FD527CA79BF00932E89 /* PodcastMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E714B5DE28491C3D00A08ACF /* PodcastTablet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastTablet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E714B5E028491C3D00A08ACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E714B5E228491C3D00A08ACF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E714B5E428491C3D00A08ACF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E714B5E728491C3D00A08ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E714B5E928491C3E00A08ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E714B5EC28491C3E00A08ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E714B5EE28491C3E00A08ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79D9FD527CA79BF00932E89 /* PodcastPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79D9FD827CA79BF00932E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E79D9FDA27CA79BF00932E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E79D9FDC27CA79BF00932E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E714B5DB28491C3D00A08ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E79D9FD227CA79BF00932E89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E714B5DF28491C3D00A08ACF /* PodcastTablet */ = {
+			isa = PBXGroup;
+			children = (
+				E714B5E028491C3D00A08ACF /* AppDelegate.swift */,
+				E714B5E228491C3D00A08ACF /* SceneDelegate.swift */,
+				E714B5E428491C3D00A08ACF /* ViewController.swift */,
+				E714B5E628491C3D00A08ACF /* Main.storyboard */,
+				E714B5E928491C3E00A08ACF /* Assets.xcassets */,
+				E714B5EB28491C3E00A08ACF /* LaunchScreen.storyboard */,
+				E714B5EE28491C3E00A08ACF /* Info.plist */,
+			);
+			path = PodcastTablet;
+			sourceTree = "<group>";
+		};
 		E79D9FCC27CA79BF00932E89 = {
 			isa = PBXGroup;
 			children = (
-				E79D9FD727CA79BF00932E89 /* PodcastMobile */,
+				E79D9FD727CA79BF00932E89 /* PodcastPhone */,
 				E79D9FEE27CA79BF00932E89 /* PodcastMobileTests */,
 				E79D9FF827CA79BF00932E89 /* PodcastMobileUITests */,
+				E714B5DF28491C3D00A08ACF /* PodcastTablet */,
 				E79D9FD627CA79BF00932E89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +125,15 @@
 		E79D9FD627CA79BF00932E89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E79D9FD527CA79BF00932E89 /* PodcastMobile.app */,
+				E79D9FD527CA79BF00932E89 /* PodcastPhone.app */,
 				E79D9FEB27CA79BF00932E89 /* PodcastMobileTests.xctest */,
 				E79D9FF527CA79BF00932E89 /* PodcastMobileUITests.xctest */,
+				E714B5DE28491C3D00A08ACF /* PodcastTablet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E79D9FD727CA79BF00932E89 /* PodcastMobile */ = {
+		E79D9FD727CA79BF00932E89 /* PodcastPhone */ = {
 			isa = PBXGroup;
 			children = (
 				E79D9FD827CA79BF00932E89 /* AppDelegate.swift */,
@@ -107,7 +144,7 @@
 				E79D9FE327CA79BF00932E89 /* LaunchScreen.storyboard */,
 				E79D9FE627CA79BF00932E89 /* Info.plist */,
 			);
-			path = PodcastMobile;
+			path = PodcastPhone;
 			sourceTree = "<group>";
 		};
 		E79D9FEE27CA79BF00932E89 /* PodcastMobileTests */ = {
@@ -130,9 +167,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E79D9FD427CA79BF00932E89 /* PodcastMobile */ = {
+		E714B5DD28491C3D00A08ACF /* PodcastTablet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E79D9FFF27CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobile" */;
+			buildConfigurationList = E714B5EF28491C3E00A08ACF /* Build configuration list for PBXNativeTarget "PodcastTablet" */;
+			buildPhases = (
+				E714B5DA28491C3D00A08ACF /* Sources */,
+				E714B5DB28491C3D00A08ACF /* Frameworks */,
+				E714B5DC28491C3D00A08ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodcastTablet;
+			productName = PodcastTablet;
+			productReference = E714B5DE28491C3D00A08ACF /* PodcastTablet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79D9FD427CA79BF00932E89 /* PodcastPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79D9FFF27CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastPhone" */;
 			buildPhases = (
 				E79D9FD127CA79BF00932E89 /* Sources */,
 				E79D9FD227CA79BF00932E89 /* Frameworks */,
@@ -142,9 +196,9 @@
 			);
 			dependencies = (
 			);
-			name = PodcastMobile;
+			name = PodcastPhone;
 			productName = PodcastMobile;
-			productReference = E79D9FD527CA79BF00932E89 /* PodcastMobile.app */;
+			productReference = E79D9FD527CA79BF00932E89 /* PodcastPhone.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E79D9FEA27CA79BF00932E89 /* PodcastMobileTests */ = {
@@ -190,9 +244,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					E714B5DD28491C3D00A08ACF = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					E79D9FD427CA79BF00932E89 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -219,7 +276,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E79D9FD427CA79BF00932E89 /* PodcastMobile */,
+				E79D9FD427CA79BF00932E89 /* PodcastPhone */,
+				E714B5DD28491C3D00A08ACF /* PodcastTablet */,
 				E79D9FEA27CA79BF00932E89 /* PodcastMobileTests */,
 				E79D9FF427CA79BF00932E89 /* PodcastMobileUITests */,
 			);
@@ -227,6 +285,16 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E714B5DC28491C3D00A08ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E714B5ED28491C3E00A08ACF /* LaunchScreen.storyboard in Resources */,
+				E714B5EA28491C3E00A08ACF /* Assets.xcassets in Resources */,
+				E714B5E828491C3D00A08ACF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E79D9FD327CA79BF00932E89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +322,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E714B5DA28491C3D00A08ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E714B5E528491C3D00A08ACF /* ViewController.swift in Sources */,
+				E714B5E128491C3D00A08ACF /* AppDelegate.swift in Sources */,
+				E714B5E328491C3D00A08ACF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E79D9FD127CA79BF00932E89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,17 +364,33 @@
 /* Begin PBXTargetDependency section */
 		E79D9FED27CA79BF00932E89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E79D9FD427CA79BF00932E89 /* PodcastMobile */;
+			target = E79D9FD427CA79BF00932E89 /* PodcastPhone */;
 			targetProxy = E79D9FEC27CA79BF00932E89 /* PBXContainerItemProxy */;
 		};
 		E79D9FF727CA79BF00932E89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E79D9FD427CA79BF00932E89 /* PodcastMobile */;
+			target = E79D9FD427CA79BF00932E89 /* PodcastPhone */;
 			targetProxy = E79D9FF627CA79BF00932E89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E714B5E628491C3D00A08ACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E714B5E728491C3D00A08ACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E714B5EB28491C3E00A08ACF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E714B5EC28491C3E00A08ACF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		E79D9FDE27CA79BF00932E89 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -316,6 +410,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E714B5F028491C3E00A08ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodcastTablet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastTablet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E714B5F128491C3E00A08ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodcastTablet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastTablet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
 		E79D9FFD27CA79BF00932E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -441,10 +593,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HW6F9686U2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PodcastMobile/Info.plist;
+				INFOPLIST_FILE = PodcastPhone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +609,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,10 +622,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HW6F9686U2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PodcastMobile/Info.plist;
+				INFOPLIST_FILE = PodcastPhone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +638,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -567,6 +721,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E714B5EF28491C3E00A08ACF /* Build configuration list for PBXNativeTarget "PodcastTablet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E714B5F028491C3E00A08ACF /* Debug */,
+				E714B5F128491C3E00A08ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E79D9FD027CA79BF00932E89 /* Build configuration list for PBXProject "PodcastMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -576,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E79D9FFF27CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobile" */ = {
+		E79D9FFF27CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastPhone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E79DA00027CA79BF00932E89 /* Debug */,
