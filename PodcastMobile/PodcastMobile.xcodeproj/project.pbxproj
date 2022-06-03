@@ -20,27 +20,7 @@
 		E79D9FDD27CA79BF00932E89 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDC27CA79BF00932E89 /* FavoritesVC.swift */; };
 		E79D9FE227CA79BF00932E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79D9FE127CA79BF00932E89 /* Assets.xcassets */; };
 		E79D9FE527CA79BF00932E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79D9FE327CA79BF00932E89 /* LaunchScreen.storyboard */; };
-		E79D9FF027CA79BF00932E89 /* PodcastMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FEF27CA79BF00932E89 /* PodcastMobileTests.swift */; };
-		E79D9FFA27CA79BF00932E89 /* PodcastMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FF927CA79BF00932E89 /* PodcastMobileUITests.swift */; };
-		E79D9FFC27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FFB27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E79D9FEC27CA79BF00932E89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E79D9FCD27CA79BF00932E89 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E79D9FD427CA79BF00932E89;
-			remoteInfo = PodcastMobile;
-		};
-		E79D9FF627CA79BF00932E89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E79D9FCD27CA79BF00932E89 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E79D9FD427CA79BF00932E89;
-			remoteInfo = PodcastMobile;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E714B5DE28491C3D00A08ACF /* PodcastTablet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastTablet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,11 +40,6 @@
 		E79D9FE127CA79BF00932E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79D9FE427CA79BF00932E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E79D9FE627CA79BF00932E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E79D9FEB27CA79BF00932E89 /* PodcastMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E79D9FEF27CA79BF00932E89 /* PodcastMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastMobileTests.swift; sourceTree = "<group>"; };
-		E79D9FF527CA79BF00932E89 /* PodcastMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E79D9FF927CA79BF00932E89 /* PodcastMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastMobileUITests.swift; sourceTree = "<group>"; };
-		E79D9FFB27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,20 +51,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E79D9FD227CA79BF00932E89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E79D9FE827CA79BF00932E89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E79D9FF227CA79BF00932E89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,8 +89,6 @@
 			children = (
 				E79D9FD727CA79BF00932E89 /* PodcastPhone */,
 				E714B5DF28491C3D00A08ACF /* PodcastTablet */,
-				E79D9FEE27CA79BF00932E89 /* PodcastMobileTests */,
-				E79D9FF827CA79BF00932E89 /* PodcastMobileUITests */,
 				E79D9FD627CA79BF00932E89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				E79D9FD527CA79BF00932E89 /* PodcastPhone.app */,
-				E79D9FEB27CA79BF00932E89 /* PodcastMobileTests.xctest */,
-				E79D9FF527CA79BF00932E89 /* PodcastMobileUITests.xctest */,
 				E714B5DE28491C3D00A08ACF /* PodcastTablet.app */,
 			);
 			name = Products;
@@ -156,23 +113,6 @@
 				E79D9FE627CA79BF00932E89 /* Info.plist */,
 			);
 			path = PodcastPhone;
-			sourceTree = "<group>";
-		};
-		E79D9FEE27CA79BF00932E89 /* PodcastMobileTests */ = {
-			isa = PBXGroup;
-			children = (
-				E79D9FEF27CA79BF00932E89 /* PodcastMobileTests.swift */,
-			);
-			path = PodcastMobileTests;
-			sourceTree = "<group>";
-		};
-		E79D9FF827CA79BF00932E89 /* PodcastMobileUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E79D9FF927CA79BF00932E89 /* PodcastMobileUITests.swift */,
-				E79D9FFB27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift */,
-			);
-			path = PodcastMobileUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,42 +152,6 @@
 			productReference = E79D9FD527CA79BF00932E89 /* PodcastPhone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E79D9FEA27CA79BF00932E89 /* PodcastMobileTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E79DA00227CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobileTests" */;
-			buildPhases = (
-				E79D9FE727CA79BF00932E89 /* Sources */,
-				E79D9FE827CA79BF00932E89 /* Frameworks */,
-				E79D9FE927CA79BF00932E89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E79D9FED27CA79BF00932E89 /* PBXTargetDependency */,
-			);
-			name = PodcastMobileTests;
-			productName = PodcastMobileTests;
-			productReference = E79D9FEB27CA79BF00932E89 /* PodcastMobileTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E79D9FF427CA79BF00932E89 /* PodcastMobileUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E79DA00527CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobileUITests" */;
-			buildPhases = (
-				E79D9FF127CA79BF00932E89 /* Sources */,
-				E79D9FF227CA79BF00932E89 /* Frameworks */,
-				E79D9FF327CA79BF00932E89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E79D9FF727CA79BF00932E89 /* PBXTargetDependency */,
-			);
-			name = PodcastMobileUITests;
-			productName = PodcastMobileUITests;
-			productReference = E79D9FF527CA79BF00932E89 /* PodcastMobileUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,14 +167,6 @@
 					};
 					E79D9FD427CA79BF00932E89 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					E79D9FEA27CA79BF00932E89 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = E79D9FD427CA79BF00932E89;
-					};
-					E79D9FF427CA79BF00932E89 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = E79D9FD427CA79BF00932E89;
 					};
 				};
 			};
@@ -289,8 +185,6 @@
 			targets = (
 				E79D9FD427CA79BF00932E89 /* PodcastPhone */,
 				E714B5DD28491C3D00A08ACF /* PodcastTablet */,
-				E79D9FEA27CA79BF00932E89 /* PodcastMobileTests */,
-				E79D9FF427CA79BF00932E89 /* PodcastMobileUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,20 +205,6 @@
 			files = (
 				E79D9FE527CA79BF00932E89 /* LaunchScreen.storyboard in Resources */,
 				E79D9FE227CA79BF00932E89 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E79D9FE927CA79BF00932E89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E79D9FF327CA79BF00932E89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,37 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E79D9FE727CA79BF00932E89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E79D9FF027CA79BF00932E89 /* PodcastMobileTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E79D9FF127CA79BF00932E89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E79D9FFA27CA79BF00932E89 /* PodcastMobileUITests.swift in Sources */,
-				E79D9FFC27CA79BF00932E89 /* PodcastMobileUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E79D9FED27CA79BF00932E89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E79D9FD427CA79BF00932E89 /* PodcastPhone */;
-			targetProxy = E79D9FEC27CA79BF00932E89 /* PBXContainerItemProxy */;
-		};
-		E79D9FF727CA79BF00932E89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E79D9FD427CA79BF00932E89 /* PodcastPhone */;
-			targetProxy = E79D9FF627CA79BF00932E89 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E714B5EB28491C3E00A08ACF /* LaunchScreen.storyboard */ = {
@@ -634,82 +484,6 @@
 			};
 			name = Release;
 		};
-		E79DA00327CA79BF00932E89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HW6F9686U2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobileTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastMobile.app/PodcastMobile";
-			};
-			name = Debug;
-		};
-		E79DA00427CA79BF00932E89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HW6F9686U2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobileTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastMobile.app/PodcastMobile";
-			};
-			name = Release;
-		};
-		E79DA00627CA79BF00932E89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HW6F9686U2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobileUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PodcastMobile;
-			};
-			name = Debug;
-		};
-		E79DA00727CA79BF00932E89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HW6F9686U2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastMobileUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PodcastMobile;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -736,24 +510,6 @@
 			buildConfigurations = (
 				E79DA00027CA79BF00932E89 /* Debug */,
 				E79DA00127CA79BF00932E89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E79DA00227CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobileTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E79DA00327CA79BF00932E89 /* Debug */,
-				E79DA00427CA79BF00932E89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E79DA00527CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastMobileUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E79DA00627CA79BF00932E89 /* Debug */,
-				E79DA00727CA79BF00932E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
