@@ -48,6 +48,16 @@
                ReferencedContainer = "container:PodcastMobile.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E714B7C6284A04F000A08ACF"
+               BuildableName = "PodcastPhoneTests.xctest"
+               BlueprintName = "PodcastPhoneTests"
+               ReferencedContainer = "container:PodcastMobile.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

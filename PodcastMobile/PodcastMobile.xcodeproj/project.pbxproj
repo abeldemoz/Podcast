@@ -15,12 +15,31 @@
 		E714B5F3284923C200A08ACF /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B5F2284923C200A08ACF /* TabBarVC.swift */; };
 		E714B5F5284925F000A08ACF /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B5F4284925F000A08ACF /* SearchVC.swift */; };
 		E714B5F8284950D400A08ACF /* DownloadsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B5F7284950D400A08ACF /* DownloadsVC.swift */; };
+		E714B7CA284A04F000A08ACF /* PodcastPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B7C9284A04F000A08ACF /* PodcastPhoneTests.swift */; };
+		E714B7D7284A052500A08ACF /* PodcastTabletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B7D6284A052500A08ACF /* PodcastTabletTests.swift */; };
 		E79D9FD927CA79BF00932E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FD827CA79BF00932E89 /* AppDelegate.swift */; };
 		E79D9FDB27CA79BF00932E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDA27CA79BF00932E89 /* SceneDelegate.swift */; };
 		E79D9FDD27CA79BF00932E89 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDC27CA79BF00932E89 /* FavoritesVC.swift */; };
 		E79D9FE227CA79BF00932E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79D9FE127CA79BF00932E89 /* Assets.xcassets */; };
 		E79D9FE527CA79BF00932E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79D9FE327CA79BF00932E89 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E714B7CB284A04F000A08ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79D9FCD27CA79BF00932E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79D9FD427CA79BF00932E89;
+			remoteInfo = PodcastPhone;
+		};
+		E714B7D8284A052500A08ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79D9FCD27CA79BF00932E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E714B5DD28491C3D00A08ACF;
+			remoteInfo = PodcastTablet;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E714B5DE28491C3D00A08ACF /* PodcastTablet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastTablet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +52,10 @@
 		E714B5F2284923C200A08ACF /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		E714B5F4284925F000A08ACF /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		E714B5F7284950D400A08ACF /* DownloadsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsVC.swift; sourceTree = "<group>"; };
+		E714B7C7284A04F000A08ACF /* PodcastPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E714B7C9284A04F000A08ACF /* PodcastPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastPhoneTests.swift; sourceTree = "<group>"; };
+		E714B7D4284A052500A08ACF /* PodcastTabletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastTabletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E714B7D6284A052500A08ACF /* PodcastTabletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastTabletTests.swift; sourceTree = "<group>"; };
 		E79D9FD527CA79BF00932E89 /* PodcastPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79D9FD827CA79BF00932E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E79D9FDA27CA79BF00932E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +67,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		E714B5DB28491C3D00A08ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714B7C4284A04F000A08ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714B7D1284A052500A08ACF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,11 +121,29 @@
 			path = VCs;
 			sourceTree = "<group>";
 		};
+		E714B7C8284A04F000A08ACF /* PodcastPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				E714B7C9284A04F000A08ACF /* PodcastPhoneTests.swift */,
+			);
+			path = PodcastPhoneTests;
+			sourceTree = "<group>";
+		};
+		E714B7D5284A052500A08ACF /* PodcastTabletTests */ = {
+			isa = PBXGroup;
+			children = (
+				E714B7D6284A052500A08ACF /* PodcastTabletTests.swift */,
+			);
+			path = PodcastTabletTests;
+			sourceTree = "<group>";
+		};
 		E79D9FCC27CA79BF00932E89 = {
 			isa = PBXGroup;
 			children = (
 				E79D9FD727CA79BF00932E89 /* PodcastPhone */,
+				E714B7C8284A04F000A08ACF /* PodcastPhoneTests */,
 				E714B5DF28491C3D00A08ACF /* PodcastTablet */,
+				E714B7D5284A052500A08ACF /* PodcastTabletTests */,
 				E79D9FD627CA79BF00932E89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +153,8 @@
 			children = (
 				E79D9FD527CA79BF00932E89 /* PodcastPhone.app */,
 				E714B5DE28491C3D00A08ACF /* PodcastTablet.app */,
+				E714B7C7284A04F000A08ACF /* PodcastPhoneTests.xctest */,
+				E714B7D4284A052500A08ACF /* PodcastTabletTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +192,42 @@
 			productReference = E714B5DE28491C3D00A08ACF /* PodcastTablet.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E714B7C6284A04F000A08ACF /* PodcastPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E714B7CD284A04F000A08ACF /* Build configuration list for PBXNativeTarget "PodcastPhoneTests" */;
+			buildPhases = (
+				E714B7C3284A04F000A08ACF /* Sources */,
+				E714B7C4284A04F000A08ACF /* Frameworks */,
+				E714B7C5284A04F000A08ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E714B7CC284A04F000A08ACF /* PBXTargetDependency */,
+			);
+			name = PodcastPhoneTests;
+			productName = PodcastPhoneTests;
+			productReference = E714B7C7284A04F000A08ACF /* PodcastPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E714B7D3284A052500A08ACF /* PodcastTabletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E714B7DA284A052500A08ACF /* Build configuration list for PBXNativeTarget "PodcastTabletTests" */;
+			buildPhases = (
+				E714B7D0284A052500A08ACF /* Sources */,
+				E714B7D1284A052500A08ACF /* Frameworks */,
+				E714B7D2284A052500A08ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E714B7D9284A052500A08ACF /* PBXTargetDependency */,
+			);
+			name = PodcastTabletTests;
+			productName = PodcastTabletTests;
+			productReference = E714B7D4284A052500A08ACF /* PodcastTabletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E79D9FD427CA79BF00932E89 /* PodcastPhone */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E79D9FFF27CA79BF00932E89 /* Build configuration list for PBXNativeTarget "PodcastPhone" */;
@@ -165,6 +258,14 @@
 					E714B5DD28491C3D00A08ACF = {
 						CreatedOnToolsVersion = 13.4;
 					};
+					E714B7C6284A04F000A08ACF = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E79D9FD427CA79BF00932E89;
+					};
+					E714B7D3284A052500A08ACF = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E714B5DD28491C3D00A08ACF;
+					};
 					E79D9FD427CA79BF00932E89 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -184,7 +285,9 @@
 			projectRoot = "";
 			targets = (
 				E79D9FD427CA79BF00932E89 /* PodcastPhone */,
+				E714B7C6284A04F000A08ACF /* PodcastPhoneTests */,
 				E714B5DD28491C3D00A08ACF /* PodcastTablet */,
+				E714B7D3284A052500A08ACF /* PodcastTabletTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +299,20 @@
 			files = (
 				E714B5ED28491C3E00A08ACF /* LaunchScreen.storyboard in Resources */,
 				E714B5EA28491C3E00A08ACF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714B7C5284A04F000A08ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714B7D2284A052500A08ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +338,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E714B7C3284A04F000A08ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E714B7CA284A04F000A08ACF /* PodcastPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714B7D0284A052500A08ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E714B7D7284A052500A08ACF /* PodcastTabletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E79D9FD127CA79BF00932E89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,6 +368,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E714B7CC284A04F000A08ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79D9FD427CA79BF00932E89 /* PodcastPhone */;
+			targetProxy = E714B7CB284A04F000A08ACF /* PBXContainerItemProxy */;
+		};
+		E714B7D9284A052500A08ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E714B5DD28491C3D00A08ACF /* PodcastTablet */;
+			targetProxy = E714B7D8284A052500A08ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E714B5EB28491C3E00A08ACF /* LaunchScreen.storyboard */ = {
@@ -309,6 +455,82 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E714B7CE284A04F000A08ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastPhone.app/PodcastPhone";
+			};
+			name = Debug;
+		};
+		E714B7CF284A04F000A08ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastPhone.app/PodcastPhone";
+			};
+			name = Release;
+		};
+		E714B7DB284A052500A08ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastTabletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastTablet.app/PodcastTablet";
+			};
+			name = Debug;
+		};
+		E714B7DC284A052500A08ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HW6F9686U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abeldemoz.PodcastTabletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastTablet.app/PodcastTablet";
 			};
 			name = Release;
 		};
@@ -492,6 +714,24 @@
 			buildConfigurations = (
 				E714B5F028491C3E00A08ACF /* Debug */,
 				E714B5F128491C3E00A08ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E714B7CD284A04F000A08ACF /* Build configuration list for PBXNativeTarget "PodcastPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E714B7CE284A04F000A08ACF /* Debug */,
+				E714B7CF284A04F000A08ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E714B7DA284A052500A08ACF /* Build configuration list for PBXNativeTarget "PodcastTabletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E714B7DB284A052500A08ACF /* Debug */,
+				E714B7DC284A052500A08ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
