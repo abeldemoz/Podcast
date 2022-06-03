@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ExtenSwift",
+        "repositoryURL": "git@github.com:abeldemoz/ExtenSwift.git",
+        "state": {
+          "branch": "main",
+          "revision": "bb69d451efb3c0aebaa431eeec02546d581d760b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

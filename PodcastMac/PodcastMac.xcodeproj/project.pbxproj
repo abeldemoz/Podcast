@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E757824C284AC20F00D6421F /* PodcastAudio in Frameworks */ = {isa = PBXBuildFile; productRef = E757824B284AC20F00D6421F /* PodcastAudio */; };
+		E757824E284AC20F00D6421F /* PodcastData in Frameworks */ = {isa = PBXBuildFile; productRef = E757824D284AC20F00D6421F /* PodcastData */; };
+		E7578250284AC20F00D6421F /* PodcastNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = E757824F284AC20F00D6421F /* PodcastNetwork */; };
 		E79D9FA227CA797700932E89 /* PodcastMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FA127CA797700932E89 /* PodcastMacApp.swift */; };
 		E79D9FA427CA797700932E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FA327CA797700932E89 /* ContentView.swift */; };
 		E79D9FA627CA797800932E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79D9FA527CA797800932E89 /* Assets.xcassets */; };
@@ -52,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E757824C284AC20F00D6421F /* PodcastAudio in Frameworks */,
+				E7578250284AC20F00D6421F /* PodcastNetwork in Frameworks */,
+				E757824E284AC20F00D6421F /* PodcastData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E757824A284AC20F00D6421F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E79D9F9527CA797700932E89 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +92,7 @@
 				E79D9FB227CA797800932E89 /* PodcastMacTests */,
 				E79D9FBC27CA797800932E89 /* PodcastMacUITests */,
 				E79D9F9F27CA797700932E89 /* Products */,
+				E757824A284AC20F00D6421F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +159,11 @@
 			dependencies = (
 			);
 			name = PodcastMac;
+			packageProductDependencies = (
+				E757824B284AC20F00D6421F /* PodcastAudio */,
+				E757824D284AC20F00D6421F /* PodcastData */,
+				E757824F284AC20F00D6421F /* PodcastNetwork */,
+			);
 			productName = PodcastMac;
 			productReference = E79D9F9E27CA797700932E89 /* PodcastMac.app */;
 			productType = "com.apple.product-type.application";
@@ -578,6 +597,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E757824B284AC20F00D6421F /* PodcastAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastAudio;
+		};
+		E757824D284AC20F00D6421F /* PodcastData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastData;
+		};
+		E757824F284AC20F00D6421F /* PodcastNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E79D9F9627CA797700932E89 /* Project object */;
 }

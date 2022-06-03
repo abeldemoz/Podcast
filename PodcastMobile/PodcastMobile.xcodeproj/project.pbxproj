@@ -17,6 +17,14 @@
 		E714B5F8284950D400A08ACF /* DownloadsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B5F7284950D400A08ACF /* DownloadsVC.swift */; };
 		E714B7CA284A04F000A08ACF /* PodcastPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B7C9284A04F000A08ACF /* PodcastPhoneTests.swift */; };
 		E714B7D7284A052500A08ACF /* PodcastTabletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714B7D6284A052500A08ACF /* PodcastTabletTests.swift */; };
+		E7578253284AC29B00D6421F /* PodcastAudio in Frameworks */ = {isa = PBXBuildFile; productRef = E7578252284AC29B00D6421F /* PodcastAudio */; };
+		E7578255284AC29B00D6421F /* PodcastData in Frameworks */ = {isa = PBXBuildFile; productRef = E7578254284AC29B00D6421F /* PodcastData */; };
+		E7578257284AC29B00D6421F /* PodcastNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = E7578256284AC29B00D6421F /* PodcastNetwork */; };
+		E7578265284AC60E00D6421F /* ExtenSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7578264284AC60E00D6421F /* ExtenSwift */; };
+		E7578267284AC67300D6421F /* ExtenSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7578266284AC67300D6421F /* ExtenSwift */; };
+		E7578269284AC68000D6421F /* PodcastAudio in Frameworks */ = {isa = PBXBuildFile; productRef = E7578268284AC68000D6421F /* PodcastAudio */; };
+		E757826B284AC68000D6421F /* PodcastData in Frameworks */ = {isa = PBXBuildFile; productRef = E757826A284AC68000D6421F /* PodcastData */; };
+		E757826D284AC68000D6421F /* PodcastNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = E757826C284AC68000D6421F /* PodcastNetwork */; };
 		E79D9FD927CA79BF00932E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FD827CA79BF00932E89 /* AppDelegate.swift */; };
 		E79D9FDB27CA79BF00932E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDA27CA79BF00932E89 /* SceneDelegate.swift */; };
 		E79D9FDD27CA79BF00932E89 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9FDC27CA79BF00932E89 /* FavoritesVC.swift */; };
@@ -70,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7578269284AC68000D6421F /* PodcastAudio in Frameworks */,
+				E7578267284AC67300D6421F /* ExtenSwift in Frameworks */,
+				E757826D284AC68000D6421F /* PodcastNetwork in Frameworks */,
+				E757826B284AC68000D6421F /* PodcastData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7578253284AC29B00D6421F /* PodcastAudio in Frameworks */,
+				E7578257284AC29B00D6421F /* PodcastNetwork in Frameworks */,
+				E7578255284AC29B00D6421F /* PodcastData in Frameworks */,
+				E7578265284AC60E00D6421F /* ExtenSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +153,13 @@
 			path = PodcastTabletTests;
 			sourceTree = "<group>";
 		};
+		E7578251284AC29B00D6421F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E79D9FCC27CA79BF00932E89 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +168,7 @@
 				E714B5DF28491C3D00A08ACF /* PodcastTablet */,
 				E714B7D5284A052500A08ACF /* PodcastTabletTests */,
 				E79D9FD627CA79BF00932E89 /* Products */,
+				E7578251284AC29B00D6421F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +212,12 @@
 			dependencies = (
 			);
 			name = PodcastTablet;
+			packageProductDependencies = (
+				E7578266284AC67300D6421F /* ExtenSwift */,
+				E7578268284AC68000D6421F /* PodcastAudio */,
+				E757826A284AC68000D6421F /* PodcastData */,
+				E757826C284AC68000D6421F /* PodcastNetwork */,
+			);
 			productName = PodcastTablet;
 			productReference = E714B5DE28491C3D00A08ACF /* PodcastTablet.app */;
 			productType = "com.apple.product-type.application";
@@ -241,6 +271,12 @@
 			dependencies = (
 			);
 			name = PodcastPhone;
+			packageProductDependencies = (
+				E7578252284AC29B00D6421F /* PodcastAudio */,
+				E7578254284AC29B00D6421F /* PodcastData */,
+				E7578256284AC29B00D6421F /* PodcastNetwork */,
+				E7578264284AC60E00D6421F /* ExtenSwift */,
+			);
 			productName = PodcastMobile;
 			productReference = E79D9FD527CA79BF00932E89 /* PodcastPhone.app */;
 			productType = "com.apple.product-type.application";
@@ -280,6 +316,9 @@
 				Base,
 			);
 			mainGroup = E79D9FCC27CA79BF00932E89;
+			packageReferences = (
+				E7578263284AC60E00D6421F /* XCRemoteSwiftPackageReference "ExtenSwift" */,
+			);
 			productRefGroup = E79D9FD627CA79BF00932E89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -755,6 +794,54 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7578263284AC60E00D6421F /* XCRemoteSwiftPackageReference "ExtenSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:abeldemoz/ExtenSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7578252284AC29B00D6421F /* PodcastAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastAudio;
+		};
+		E7578254284AC29B00D6421F /* PodcastData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastData;
+		};
+		E7578256284AC29B00D6421F /* PodcastNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastNetwork;
+		};
+		E7578264284AC60E00D6421F /* ExtenSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7578263284AC60E00D6421F /* XCRemoteSwiftPackageReference "ExtenSwift" */;
+			productName = ExtenSwift;
+		};
+		E7578266284AC67300D6421F /* ExtenSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7578263284AC60E00D6421F /* XCRemoteSwiftPackageReference "ExtenSwift" */;
+			productName = ExtenSwift;
+		};
+		E7578268284AC68000D6421F /* PodcastAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastAudio;
+		};
+		E757826A284AC68000D6421F /* PodcastData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastData;
+		};
+		E757826C284AC68000D6421F /* PodcastNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E79D9FCD27CA79BF00932E89 /* Project object */;
 }
