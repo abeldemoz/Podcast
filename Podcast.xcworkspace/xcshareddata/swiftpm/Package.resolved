@@ -5,9 +5,9 @@
         "package": "ExtenSwift",
         "repositoryURL": "git@github.com:abeldemoz/ExtenSwift.git",
         "state": {
-          "branch": "main",
-          "revision": "bb69d451efb3c0aebaa431eeec02546d581d760b",
-          "version": null
+          "branch": null,
+          "revision": "c17e1a4b23cd18bab57e1005659ad52882e7ccaf",
+          "version": "1.0.0"
         }
       }
     ]

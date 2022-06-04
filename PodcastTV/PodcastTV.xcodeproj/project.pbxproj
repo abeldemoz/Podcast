@@ -17,6 +17,7 @@
 		E79D9F2827CA78E000932E89 /* PodcastTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9F2727CA78E000932E89 /* PodcastTVTests.swift */; };
 		E79D9F3227CA78E000932E89 /* PodcastTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9F3127CA78E000932E89 /* PodcastTVUITests.swift */; };
 		E79D9F3427CA78E000932E89 /* PodcastTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9F3327CA78E000932E89 /* PodcastTVUITestsLaunchTests.swift */; };
+		E7BF0679284B9BDE0050D52D /* ExtenSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7BF0678284B9BDE0050D52D /* ExtenSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 				E7578273284AC6EE00D6421F /* PodcastAudio in Frameworks */,
 				E7578277284AC6EE00D6421F /* PodcastNetwork in Frameworks */,
 				E7578275284AC6EE00D6421F /* PodcastData in Frameworks */,
+				E7BF0679284B9BDE0050D52D /* ExtenSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +163,7 @@
 				E7578272284AC6EE00D6421F /* PodcastAudio */,
 				E7578274284AC6EE00D6421F /* PodcastData */,
 				E7578276284AC6EE00D6421F /* PodcastNetwork */,
+				E7BF0678284B9BDE0050D52D /* ExtenSwift */,
 			);
 			productName = PodcastTV;
 			productReference = E79D9F1327CA78DF00932E89 /* PodcastTV.app */;
@@ -235,7 +238,7 @@
 			);
 			mainGroup = E79D9F0A27CA78DF00932E89;
 			packageReferences = (
-				E757826E284AC6DA00D6421F /* XCRemoteSwiftPackageReference "ExtenSwift" */,
+				E7BF0677284B9BDE0050D52D /* XCRemoteSwiftPackageReference "ExtenSwift" */,
 			);
 			productRefGroup = E79D9F1427CA78DF00932E89 /* Products */;
 			projectDirPath = "";
@@ -603,12 +606,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E757826E284AC6DA00D6421F /* XCRemoteSwiftPackageReference "ExtenSwift" */ = {
+		E7BF0677284B9BDE0050D52D /* XCRemoteSwiftPackageReference "ExtenSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:abeldemoz/ExtenSwift.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -625,6 +628,11 @@
 		E7578276284AC6EE00D6421F /* PodcastNetwork */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PodcastNetwork;
+		};
+		E7BF0678284B9BDE0050D52D /* ExtenSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7BF0677284B9BDE0050D52D /* XCRemoteSwiftPackageReference "ExtenSwift" */;
+			productName = ExtenSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
