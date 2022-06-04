@@ -5,21 +5,20 @@ class TabBarVC: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .systemBackground
         configureViewControllers()
     }
 
     func configureViewControllers() {
         viewControllers = [
             generateNavigationController(
+                with: SearchVC(),
+                title: "Search",
+                image: UIImage(systemName: "magnifyingglass")
+            ),
+            generateNavigationController(
                 with: FavoritesVC(),
                 title: "Favorites",
                 image: UIImage(systemName: "hand.thumbsup.fill")
-            ),
-            generateNavigationController(
-                with: SearchVC(),
-                title: "Search",
-                image: UIImage(systemName: "arrow.down.circle")
             ),
             generateNavigationController(
                 with: DownloadsVC(),
