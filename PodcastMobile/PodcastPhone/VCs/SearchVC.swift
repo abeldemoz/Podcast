@@ -1,6 +1,7 @@
 import UIKit
 import PodcastData
 import ExtenSwift
+import PodcastNetwork
 
 class SearchVC: UIViewController {
 
@@ -17,10 +18,7 @@ class SearchVC: UIViewController {
         return viewController
     }()
 
-    let dummyPodcasts: [Podcast] = [
-        Podcast(name:"Abel's Podcast", artistName: "Abel"),
-        Podcast(name:"Mike's Podcast", artistName: "Mike")
-    ]
+    private var dummyPodcasts: [PodcastJSON] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,13 +55,26 @@ extension SearchVC: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ha", for: indexPath)
         let podcast = self.dummyPodcasts[indexPath.row]
         cell.textLabel?.numberOfLines = 2
-        cell.textLabel?.text = "\(podcast.name)\n\(podcast.artistName)"
+        cell.textLabel?.text = "\(podcast.artistName ?? "")\n\(podcast.trackName ?? "")"
         return cell
     }
 }
 
 extension SearchVC: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print(searchText)
+
+        let endpoint = try? APIService.itunesEndpoint(searchTerm: searchText)
+
+        APIService.shared.fetchPodcasts(from: endpoint) { [weak self] podcasts in
+            guard let podcasts = podcasts else {
+                return
+            }
+
+            self?.dummyPodcasts = podcasts
+
+            DispatchQueue.main.async { [weak self] in
+                self?.tableView.reloadData()
+            }
+        }
     }
 }

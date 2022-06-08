@@ -16,8 +16,8 @@ class TabBarVC: UITabBarController {
                 image: UIImage(systemName: "magnifyingglass")
             ),
             generateNavigationController(
-                with: FavoritesVC(),
-                title: "Favorites",
+                with: LikesVC(),
+                title: "Likes",
                 image: UIImage(systemName: "hand.thumbsup.fill")
             ),
             generateNavigationController(

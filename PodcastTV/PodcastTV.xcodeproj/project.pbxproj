@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7578273284AC6EE00D6421F /* PodcastAudio in Frameworks */ = {isa = PBXBuildFile; productRef = E7578272284AC6EE00D6421F /* PodcastAudio */; };
 		E7578275284AC6EE00D6421F /* PodcastData in Frameworks */ = {isa = PBXBuildFile; productRef = E7578274284AC6EE00D6421F /* PodcastData */; };
 		E7578277284AC6EE00D6421F /* PodcastNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = E7578276284AC6EE00D6421F /* PodcastNetwork */; };
 		E79D9F1727CA78DF00932E89 /* PodcastTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9F1627CA78DF00932E89 /* PodcastTVApp.swift */; };
@@ -17,6 +16,7 @@
 		E79D9F2827CA78E000932E89 /* PodcastTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9F2727CA78E000932E89 /* PodcastTVTests.swift */; };
 		E79D9F3227CA78E000932E89 /* PodcastTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9F3127CA78E000932E89 /* PodcastTVUITests.swift */; };
 		E79D9F3427CA78E000932E89 /* PodcastTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D9F3327CA78E000932E89 /* PodcastTVUITestsLaunchTests.swift */; };
+		E7BA48072850AD18002128A0 /* PodcastAudio in Frameworks */ = {isa = PBXBuildFile; productRef = E7BA48062850AD18002128A0 /* PodcastAudio */; };
 		E7BF0679284B9BDE0050D52D /* ExtenSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7BF0678284B9BDE0050D52D /* ExtenSwift */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7578273284AC6EE00D6421F /* PodcastAudio in Frameworks */,
+				E7BA48072850AD18002128A0 /* PodcastAudio in Frameworks */,
 				E7578277284AC6EE00D6421F /* PodcastNetwork in Frameworks */,
 				E7578275284AC6EE00D6421F /* PodcastData in Frameworks */,
 				E7BF0679284B9BDE0050D52D /* ExtenSwift in Frameworks */,
@@ -79,13 +79,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E7578271284AC6EE00D6421F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E79D9F0A27CA78DF00932E89 = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +86,7 @@
 				E79D9F2627CA78E000932E89 /* PodcastTVTests */,
 				E79D9F3027CA78E000932E89 /* PodcastTVUITests */,
 				E79D9F1427CA78DF00932E89 /* Products */,
-				E7578271284AC6EE00D6421F /* Frameworks */,
+				E7BA48052850AD18002128A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +136,13 @@
 			path = PodcastTVUITests;
 			sourceTree = "<group>";
 		};
+		E7BA48052850AD18002128A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,10 +160,10 @@
 			);
 			name = PodcastTV;
 			packageProductDependencies = (
-				E7578272284AC6EE00D6421F /* PodcastAudio */,
 				E7578274284AC6EE00D6421F /* PodcastData */,
 				E7578276284AC6EE00D6421F /* PodcastNetwork */,
 				E7BF0678284B9BDE0050D52D /* ExtenSwift */,
+				E7BA48062850AD18002128A0 /* PodcastAudio */,
 			);
 			productName = PodcastTV;
 			productReference = E79D9F1327CA78DF00932E89 /* PodcastTV.app */;
@@ -617,10 +617,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E7578272284AC6EE00D6421F /* PodcastAudio */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = PodcastAudio;
-		};
 		E7578274284AC6EE00D6421F /* PodcastData */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PodcastData;
@@ -628,6 +624,10 @@
 		E7578276284AC6EE00D6421F /* PodcastNetwork */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PodcastNetwork;
+		};
+		E7BA48062850AD18002128A0 /* PodcastAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodcastAudio;
 		};
 		E7BF0678284B9BDE0050D52D /* ExtenSwift */ = {
 			isa = XCSwiftPackageProductDependency;

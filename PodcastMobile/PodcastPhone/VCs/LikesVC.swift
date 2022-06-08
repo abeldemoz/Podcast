@@ -1,6 +1,6 @@
 import UIKit
 
-class FavoritesVC: UIViewController {
+class LikesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
