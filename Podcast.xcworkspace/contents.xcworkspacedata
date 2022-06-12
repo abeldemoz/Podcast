@@ -14,7 +14,7 @@
       location = "group:PodcastTV/PodcastTV.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:PodcastAudio">
+      location = "group:PodcastTV/PodcastTVUITests/../../PodcastAudio">
    </FileRef>
    <FileRef
       location = "group:PodcastData">

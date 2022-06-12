@@ -4,14 +4,4 @@
 
 ## User settings
 xcuserdata/
-
-### SwiftPackageManager ###
-Packages
-xcuserdata
-*.xcodeproj
-
-### Other
-PodcastMobile.xcodeproj/xcuserdata/abeldemoz.xcuserdatad/xcschemes/xcschememanagement.plist
-PodcastWatch.xcodeproj/xcuserdata/abeldemoz.xcuserdatad/xcschemes/xcschememanagement.plist
-PodcastMac.xcodeproj/xcuserdata/abeldemoz.xcuserdatad/xcschemes/xcschememanagement.plist
-PodcastTV.xcodeproj/xcuserdata/abeldemoz.xcuserdatad/xcschemes/xcschememanagement.plist
+*.xcodeproj/xcuserdata*
